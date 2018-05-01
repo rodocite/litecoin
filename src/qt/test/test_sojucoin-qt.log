@@ -1,0 +1,72 @@
+********* Start testing of URITests *********
+Config: Using QtTest library 5.10.1, Qt 5.10.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 9.0.0 (clang-900.0.39.2) (Apple))
+PASS   : URITests::initTestCase()
+PASS   : URITests::uriTests()
+PASS   : URITests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 2ms
+********* Finished testing of URITests *********
+********* Start testing of PaymentServerTests *********
+Config: Using QtTest library 5.10.1, Qt 5.10.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 9.0.0 (clang-900.0.39.2) (Apple))
+PASS   : PaymentServerTests::initTestCase()
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::initNetManager: No active proxy server found.
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Secure payment request from  "testmerchant.org"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "03", "LxHILx+N3qwVoAcCmQ5cyw==", (), ("Expired Test Merchant"), QMap(), QDateTime(2013-02-23 21:26:43.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 21:26:43.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "LYqnbT8oyiEbNFmZeFQe8JJAVDQLPTbhkp"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "03", "LxHILx+N3qwVoAcCmQ5cyw==", (), ("Expired Test Merchant"), QMap(), QDateTime(2013-02-23 21:26:43.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 21:26:43.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Secure payment request from  "testmerchant8.org"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "06", "MiZaQ+g9lSHZGuHWkXZG+g==", (), ("Payment Request Intermediate 5"), QMap(), QDateTime(2013-02-23 22:59:51.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 22:59:51.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "LYqnbT8oyiEbNFmZeFQe8JJAVDQLPTbhkp"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "06", "MiZaQ+g9lSHZGuHWkXZG+g==", (), ("Payment Request Intermediate 5"), QMap(), QDateTime(2013-02-23 22:59:51.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 22:59:51.000 UTC Qt::TimeSpec(UTC)))
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  certificate signature failure
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "LYqnbT8oyiEbNFmZeFQe8JJAVDQLPTbhkp"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  certificate signature failure
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  unable to get local issuer certificate
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "LYqnbT8oyiEbNFmZeFQe8JJAVDQLPTbhkp"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  unable to get local issuer certificate
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyNetwork: Payment request network \"test\" doesn't match client network \"main\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyExpired: Payment request expired \"1970-01-01 00:00:01\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyExpired: Payment request expired \"1970-01-01 00:00:00\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifySize: Payment request too large (50001 bytes, allowed 50000 bytes)."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyAmount: Payment request amount out of allowed range (8400000100000000, allowed 0 - 8400000000000000)."
+PASS   : PaymentServerTests::paymentServerTests()
+PASS   : PaymentServerTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 443ms
+********* Finished testing of PaymentServerTests *********
+********* Start testing of RPCNestedTests *********
+Config: Using QtTest library 5.10.1, Qt 5.10.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 9.0.0 (clang-900.0.39.2) (Apple))
+PASS   : RPCNestedTests::initTestCase()
+PASS   : RPCNestedTests::rpcNestedTests()
+PASS   : RPCNestedTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 40ms
+********* Finished testing of RPCNestedTests *********
+********* Start testing of CompatTests *********
+Config: Using QtTest library 5.10.1, Qt 5.10.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 9.0.0 (clang-900.0.39.2) (Apple))
+PASS   : CompatTests::initTestCase()
+PASS   : CompatTests::bswapTests()
+PASS   : CompatTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 0ms
+********* Finished testing of CompatTests *********
+********* Start testing of WalletTests *********
+Config: Using QtTest library 5.10.1, Qt 5.10.1 (x86_64-little_endian-lp64 shared (dynamic) release build; by Clang 9.0.0 (clang-900.0.39.2) (Apple))
+PASS   : WalletTests::initTestCase()
+QDEBUG : WalletTests::walletTests() TransactionTablePriv::refreshWallet
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: d6b1d8fb078ebe01d964a1a7561bac4f3064a58336783fe01383cb9e7dce2790 status= 0"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: 1405aac97a4f1251402ca3cdd938ea4b4a96c39b753d670f307f2dbc8532f24c status= 1"
+QDEBUG : WalletTests::walletTests() "NotifyAddressBookChanged: mfWxJ45yp2SFn7UciZyNpvDKrzbhyfKrY8  isMine=0 purpose=send status=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: d6b1d8fb078ebe01d964a1a7561bac4f3064a58336783fe01383cb9e7dce2790 0"
+QDEBUG : WalletTests::walletTests() "    inModel=0 Index=66-66 showTransaction=1 derivedStatus=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: 1405aac97a4f1251402ca3cdd938ea4b4a96c39b753d670f307f2dbc8532f24c 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=37-38 showTransaction=1 derivedStatus=1"
+QWARN  : WalletTests::walletTests() This plugin does not support propagateSizeHints()
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: 511e8e340273ac95eab18eccf6eac804c81ba57398a0ac083908bb197c767fb6 status= 0"
+QDEBUG : WalletTests::walletTests() "NotifyTransactionChanged: e23b689115e1e416d6e7e87c54b47b7def522d7f3303a2686643ef5886e2b68d status= 1"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: 511e8e340273ac95eab18eccf6eac804c81ba57398a0ac083908bb197c767fb6 0"
+QDEBUG : WalletTests::walletTests() "    inModel=0 Index=76-76 showTransaction=1 derivedStatus=0"
+QDEBUG : WalletTests::walletTests() "TransactionTablePriv::updateWallet: e23b689115e1e416d6e7e87c54b47b7def522d7f3303a2686643ef5886e2b68d 1"
+QDEBUG : WalletTests::walletTests() "    inModel=1 Index=63-64 showTransaction=1 derivedStatus=1"
+PASS   : WalletTests::walletTests()
+PASS   : WalletTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 764ms
+********* Finished testing of WalletTests *********
+PASS qt/test/test_sojucoin-qt (exit status: 0)
