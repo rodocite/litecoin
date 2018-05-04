@@ -3,7 +3,7 @@ What is Sojucoin?
 
 Sojucoin is a cryptocurrency dedicated to my pet puppy, Soju. It's a fork of Litecoin.
 
-![](https://github.com/rodocite/sojucoin/blob/master/soju.png)
+![](https://github.com/rodocite/sojucoin/blob/master/soju.jpg)
 
 Running a Node
 ----------------
