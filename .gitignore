@@ -70,6 +70,7 @@ src/qt/test/moc*.cpp
 #libtool object files
 *.lo
 *.la
+*.a
 
 # Compilation and Qt preprocessor part
 *.qm
